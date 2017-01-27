@@ -1,0 +1,3 @@
+A work in progress wrapper for the BiB/i web-based epub reader https://github.com/satorumurmur/bibi
+
+Uses node.js to serve up the contents of the bookshelf directory as a json to enable picking from what's there

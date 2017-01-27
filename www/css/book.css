@@ -1,0 +1,173 @@
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('fonts/glyphicons-halflings-regular.eot');
+  src: url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), 
+  	   url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+  	   url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+  	   url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), 
+  	   url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.glyphicon {
+  position: relative;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.glyphicon-filled-dot:before {
+    content: "\25cf";
+}
+.glyphicon-filled-dot {
+  font-size: 2em;
+}
+.glyphicon-home:before {
+  content: "\e021";
+}
+.glyphicon-align-justify:before {
+  content: "\e055";
+}
+.glyphicon-menu-right:before {
+  content: "\e258";
+}
+.glyphicon-menu-down:before {
+  content: "\e259";
+}
+
+html, body, ol, .content {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: #eee;
+}
+
+.nav {
+  display: none;
+}
+
+/*  Picker Styles */
+.picker {
+  height: 50%;
+}
+.picker ol {
+  list-style: none;
+}
+.picker-images-wrapper {
+  height: 100%;
+  width: 100%;
+  /*padding-bottom: 12px;*/
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.picker-images-back, .picker-images-forward {
+  height: 100%;
+  width: auto;
+  display: inline-block;
+}
+.picker-images, .picker-img-container, .picker-img {
+  height: 100%;
+  width: auto;
+}
+.picker-images {
+  display: inline-block;
+}
+.picker-img {
+  box-shadow: 7px 7px 5px #bbb;
+}
+.picker-dots {
+  margin: 0 2% 0 2%;
+  display: inline-block;
+  height: auto;
+  width: auto;
+/*  background-color: #eee;
+  box-shadow: 1px 1px 1px #bbb;
+  padding-bottom: .35em;
+  border: solid 1px #ccc;
+  border-radius: 10px*/
+}
+.picker-dots-item {
+  display: inline-block;
+  padding: 0 1em 0 0;
+}
+.picker-dot-first {
+  padding-left: 1em;
+}
+.picker-dot {
+  color: #111;
+  text-decoration: none;
+}
+.hover-dot {
+  color: #aaa;
+  cursor: pointer;
+}
+
+/* Content Styles */
+.text {
+  font-family: 'Acme', sans-serif;
+  color: red;
+  font-size: 1.5em;
+}
+.content {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.home {
+  margin: 0;
+  padding: 1% 0 0 0;
+  display: table-cell; 
+  width: 50px; 
+  vertical-align: top; 
+  box-sizing: border-box;
+}
+.home-icon {
+  border: solid 1px #ccc;
+  color: #ccc;
+  border-radius: 10px;
+  padding: 3px;
+  text-decoration: none;
+  font-size: 24px;
+  width: 26px;
+  height: 26px;
+}
+.home-hover {
+  color: #aaa;
+  background-color: #fff;
+  border-color: #aaa;
+  box-shadow: 1px 1px 1px #ddd;
+}
+.book {
+  height: 100%; 
+  margin: 0;
+  padding: 1% 2% 1% 0;
+  display: table-cell; 
+  vertical-align: top; 
+  box-sizing: border-box;
+}
+
+/* Generic display styles */
+.hidden {
+	display: none;
+}
+.inactive {
+	visibility: hidden;
+}
+.active {
+	visibility: visible;
+}
+
+/*@media only screen and (max-device-width: 600px) {*/
+  /*.nav {*/
+    /*display: inline-block;*/
+  /*}*/
+
+  /*.picker {*/
+    /*display: none;*/
+  /*}*/
+
+/*}*/

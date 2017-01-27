@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+	<link rel="stylesheet" href="css/book.css" />
+	<title>Coding eBooks</title>
+</head>
+<body>
+	<div class="nav">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li class="dropdown">
+				<a href="javascript:void(0)" class="dropbtn">Available Books <span class="glyphicon glyphicon-menu-down"></span></a> <!-- .dropbtn -->
+				<div id="books-dropdown" class="dropdown-content"></div>
+			</li> <!-- .dropdown -->
+		</ul>
+	</div> <!-- .nav -->
+	<div class="picker">
+		<div class="picker-images-wrapper"><ol class="picker-images"></ol></div>
+		<div class="picker-dots-wrapper"><ol class="picker-dots"></ol></div>
+		<div class="text hidden">
+			<p class="error inactive">Placeholder</p> <!-- .error -->
+			<!-- <p class="message">Placeholder</p>  --><!-- .message -->
+		</div> <!-- .text -->
+	</div> <!-- .picker -->
+	<div class="content">
+		<div class="home hidden"><a class="glyphicon glyphicon-home" href="index.html"></a></div>
+		<div class="book hidden"></div>
+	</div> <!-- .content -->
+	<div class="footer"></div> <!-- .content -->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/jquery.hoverIntent.minified.js"></script>
+	<script src="js/book.js"></script>
+  	<script src="js/bibi/bib/i.js"></script>
+</body>
+</html>

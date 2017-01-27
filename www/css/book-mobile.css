@@ -1,0 +1,177 @@
+html, body {
+  	height: 100%;
+  	margin: 0;
+  	padding: 0;
+	background: #eeeeee;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-align: center;
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('fonts/glyphicons-halflings-regular.eot');
+  src: url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), 
+  	   url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+  	   url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+  	   url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), 
+  	   url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.glyphicon-filled-dot:before {
+    content: "\25cf";
+}
+.glyphicon-filled-dot {
+}
+.glyphicon-align-justify:before {
+  content: "\e055";
+}
+.glyphicon-menu-right:before {
+  content: "\e258";
+}
+.glyphicon-menu-down:before {
+  content: "\e259";
+}
+
+.nav {
+    background-color: #33334d;
+}
+
+.nav .glyphicon {
+	font-size: 12px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    overflow: hidden;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover, .dropdown:hover .dropbtn {
+    background-color: #52527a;
+}
+
+.nav li.dropdown {
+	text-align: left;
+    display: inline-block;
+}
+
+.nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #b3b3cc;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 999;
+}
+
+.nav .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.nav .dropdown-item:hover,
+.nav .dropdown-item a:hover {
+	background-color: #d1d1e0
+}
+
+.nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.message {
+	text-align: center;
+	font-size: 20px;
+}
+
+.error {
+	text-align: center;
+	font-size: 12px;
+	color: red;
+}
+
+.book {
+	width: 90%;
+	height: 90%;
+	margin: auto;
+	padding-top: 15px;
+}
+
+.picker {
+	width: 80%;
+	height: 80%;
+	margin: 15px auto 0 auto;
+/*	margin-left: auto;
+	margin-right: auto;
+*/	display: inline-block;
+	padding: 16px;
+	border: 1px solid #ccc;
+	border-radius: 16px;
+}
+
+.picker ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.picker ul li {
+	margin: 0 5px 0 5px;
+	font-size: 1.5em;
+}
+
+.picker ol {
+	display: inline-block;
+	list-style: none;
+	margin: auto;
+	padding: 0;
+}
+
+.picker ol li {
+	width: 80%;
+	height: 80%;
+}
+
+.picker .picker-img {
+	max-width: 80%;
+	max-height: 80%;
+}
+
+.hidden {
+	display: none;
+}
+
+.inactive {
+	visibility: hidden;
+}
+
+.active {
+	visibility: visible;
+}

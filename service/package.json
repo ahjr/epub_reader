@@ -1,0 +1,10 @@
+{
+  "name": "ebooks-app",
+  "description": "Serves up all the ebooks in the BiB/i library",
+  "version": "0.0.1",
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "3.x",
+    "xml2js": "^0.4.17"
+  }
+}
